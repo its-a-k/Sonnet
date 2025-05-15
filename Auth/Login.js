@@ -67,7 +67,7 @@ const Login = ({ navigation }) => {
       <Text>Don't have an Account yet?</Text>
       <TouchableOpacity onPress= {() =>navigation.reset({
         index: 0,
-        routes: [{ name: 'MainApp' }],
+        routes: [{ name: 'register' }],
         })}>
         <Text style={[styles.forgotText, {opacity: 1}]}> Register..</Text></TouchableOpacity>
       </View>
